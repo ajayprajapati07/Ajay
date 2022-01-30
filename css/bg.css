@@ -1,0 +1,30 @@
+#section-hero-7 {
+    background: url(../images/background/black.jpg) fixed;
+}
+
+body.custom-bg-1 {
+    background: none;
+}
+
+
+section {
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+/* media query */
+
+@media only screen and (max-width: 767px) {
+    section {
+        -webkit-background-size: auto 100% !important;
+        -moz-background-size: auto 100% !important;
+        -o-background-size: auto 100% !important;
+        background-size: auto 100% !important;
+        background-attachment: scroll !important;
+        background-position: top !important;
+    }
+}
